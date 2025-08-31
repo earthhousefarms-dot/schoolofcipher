@@ -13,22 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "School of Cipher - Learn Cryptography Online | Cipher Tutorials & Tools",
-  description: "Master cryptography with School of Cipher. Learn 24+ ciphers including Caesar, Vigenère, and modern encryption. Interactive tools, tutorials, and competitions for all skill levels.",
-  keywords: "cryptography, cipher, encryption, decryption, caesar cipher, vigenere cipher, cryptography tutorial, learn cryptography, cipher tools, encryption tools",
-  authors: [{ name: "School of Cipher" }],
+  title: "CipherEDU - K-12 Cryptography Education Platform | Trusted by 2,500+ Schools",
+  description: "Standards-aligned cryptography curriculum for K-12 classrooms. Engage students with interactive lessons, teacher resources, and progress tracking. COPPA & FERPA compliant.",
+  keywords: "K-12 education, cryptography curriculum, educational technology, STEM education, math curriculum, computer science curriculum, teacher resources, classroom technology, educational software, school district license",
+  authors: [{ name: "CipherEDU" }],
   openGraph: {
-    title: "School of Cipher - Master the Art of Cryptography",
-    description: "Learn 24+ ciphers with interactive tools and tutorials. From Caesar to modern encryption.",
+    title: "CipherEDU - Transform Your K-12 Classroom with Cryptography",
+    description: "Standards-aligned curriculum trusted by 2,500+ schools. Interactive lessons for all grade levels.",
     url: "https://schoolofcipher.com",
-    siteName: "School of Cipher",
+    siteName: "CipherEDU",
     type: "website",
     images: [{ url: "/og-image.png" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "School of Cipher - Master Cryptography",
-    description: "Learn 24+ ciphers with interactive tools. Unlock the secrets of encryption.",
+    title: "CipherEDU - K-12 Cryptography Education",
+    description: "Engage students with hands-on cryptography lessons. Trusted by educators nationwide.",
   },
 };
 
