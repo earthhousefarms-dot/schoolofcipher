@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 interface CipherDemoProps {
   message?: string;
@@ -97,7 +97,6 @@ export default function CipherDemo({ message = "HELLO WORLD", shift = 3 }: Ciphe
                 if (char === ' ') return null;
                 const transform = getCharacterTransform(char, shift);
                 const originalPos = char.charCodeAt(0) - 65;
-                const newPos = transform.encrypted.charCodeAt(0) - 65;
                 
                 return (
                   <div key={`transform-${index}`} className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">

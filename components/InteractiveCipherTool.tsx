@@ -81,7 +81,7 @@ export default function InteractiveCipherTool() {
             <h4 className="text-lg font-bold text-gray-800 mb-4">Quick Test</h4>
             <div className="space-y-4">
               <div>
-                <div className="text-sm text-gray-600 mb-2">Try encoding 'A':</div>
+                <div className="text-sm text-gray-600 mb-2">Try encoding &apos;A&apos;:</div>
                 <div className="text-2xl font-mono">
                   A → <span className="text-red-600 font-bold">
                     {String.fromCharCode(((0 + shift) % 26) + 65)}
@@ -217,7 +217,7 @@ export default function InteractiveCipherTool() {
               <p className="text-blue-700 text-sm">
                 The Caesar cipher was used by Julius Caesar to send secret military messages. 
                 Each letter is shifted by a fixed number of positions in the alphabet. 
-                With shift {shift}, 'A' becomes '{String.fromCharCode(((0 + shift) % 26) + 65)}'.
+                With shift {shift}, &apos;A&apos; becomes &apos;{String.fromCharCode(((0 + shift) % 26) + 65)}&apos;.
               </p>
             </div>
           </div>
